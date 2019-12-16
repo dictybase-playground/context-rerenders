@@ -1,7 +1,7 @@
 import React from "react"
 import { useCountStore } from "./CountStore"
 
-const Message = () => {
+const CountMessage = () => {
   const [{ count }] = useCountStore()
   // the text will render to a random color for
   // each instance of the Message component
@@ -16,4 +16,4 @@ const Message = () => {
   )
 }
 
-export default Message
+export default CountMessage

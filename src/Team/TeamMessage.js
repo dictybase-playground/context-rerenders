@@ -1,7 +1,7 @@
 import React from "react"
 import { useTeamStore } from "./TeamStore"
 
-const Message = () => {
+const TeamMessage = () => {
   const [{ teams }] = useTeamStore()
   // the text will render to a random color for
   // each instance of the Message component
@@ -18,4 +18,4 @@ const Message = () => {
   )
 }
 
-export default Message
+export default TeamMessage

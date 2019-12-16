@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { useGlobalStore } from "./GlobalStore"
 
-const Team = () => {
+const GlobalTeam = () => {
   const [
     {
       teams: { teams },
@@ -49,4 +49,4 @@ const Team = () => {
   )
 }
 
-export default Team
+export default GlobalTeam

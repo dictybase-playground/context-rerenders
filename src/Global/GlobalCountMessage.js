@@ -1,14 +1,13 @@
 import React from "react"
 import { useGlobalStore } from "./GlobalStore"
 
-const Message = () => {
+const GlobalCountMessage = () => {
   const [
     {
       count: { count },
     },
   ] = useGlobalStore()
-  // the text will render to a random color for
-  // each instance of the Message component
+
   const getColor = () => Math.floor(Math.random() * 255)
   const style = {
     color: `rgb(${getColor()},${getColor()},${getColor()})`,
@@ -23,4 +22,4 @@ const Message = () => {
   )
 }
 
-export default Message
+export default GlobalCountMessage

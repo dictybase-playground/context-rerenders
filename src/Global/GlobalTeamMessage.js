@@ -1,7 +1,7 @@
 import React from "react"
 import { useGlobalStore } from "./GlobalStore"
 
-const Message = () => {
+const GlobalTeamMessage = () => {
   const [
     {
       teams: { teams },
@@ -23,4 +23,4 @@ const Message = () => {
   )
 }
 
-export default Message
+export default GlobalTeamMessage
